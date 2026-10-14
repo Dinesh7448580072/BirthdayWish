@@ -52,7 +52,7 @@ const birthdayContent = {
   //
   // HOW TO ADD PHOTOS:
   //   1. Place your photo files in:  public/images/
-  //   2. Update the 'src' path below:  "/images/your-photo.jpg"
+  //   2. Update the 'src' path below:  `${import.meta.env.BASE_URL}images/your-photo.jpg`
   //   3. Add a caption for each photo
   //
   // Supported formats: .jpg, .jpeg, .png, .webp
@@ -62,27 +62,27 @@ const birthdayContent = {
   // Remove entries you don't need.
   photos: [
     {
-      src: "/images/memory-1.jpg",
+      src: `${import.meta.env.BASE_URL}images/memory-1.jpg`,
       caption: "I select this photo as one of our best memory, because it reminds me how beautiful youre eyes are and how much I love you",
     },
     {
-      src: "/images/memory-2.jpg",
+      src: `${import.meta.env.BASE_URL}images/memory-2.jpg`,
       caption: "I select this photo as one of our best memory, because it reminds me how beautiful our baby photos are.",
     },
     {
-      src: "/images/memory-3.jpg",
+      src: `${import.meta.env.BASE_URL}images/memory-3.jpg`,
       caption: "I select this photo as one of our best memory, because its our first we attended a wedding function together, and it was a special day for both of us.",
     },
     {
-      src: "/images/memory-4.jpg",
+      src: `${import.meta.env.BASE_URL}images/memory-4.jpg`,
       caption: "How can I forget this image right? Its our photo we taken together.",
     },
     {
-      src: "/images/memory-5.jpg",
+      src: `${import.meta.env.BASE_URL}images/memory-5.jpg`,
       caption: "Funny one. I looks good only in this photo Thats why i chooses this and you too",
     },
     {
-      src: "/images/memory-6.jpg",
+      src: `${import.meta.env.BASE_URL}images/memory-6.jpg`,
       caption: "Also how can i forget this image right? Meeting my mother-in-law for the first time in the kovil.",
     },
   ],
